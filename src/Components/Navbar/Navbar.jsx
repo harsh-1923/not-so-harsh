@@ -1,18 +1,34 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Bounce from "react-reveal/Bounce";
+import Slide from "react-reveal/Slide";
+
+import MusicPlayer from "../MusicPlayer/MusicPlayer.jsx";
 
 const Navbar = () => {
+  const [logo, setLogo] = useState(true);
+  let timerID = useRef(null);
+
+  timerID = setTimeout(() => {
+    setLogo(false);
+  }, 5000);
+
   return (
     <div className="navbar-wrapper">
-      <Link className="navbar-link" to="./">
-        <h2 className="navbar-logo">
-          not so harsh
-        </h2>
-      </Link>
-      <button className="navbar-button click">
-        <h2 className="nav-item">Resume</h2>
-      </button>
+      <Slide top>
+        <Link className="navbar-link" to="./">
+          <h2 className="navbar-logo">
+            {logo ? "not so harsh" : <MusicPlayer />}
+          </h2>
+        </Link>
+      </Slide>
+
+      <Slide top>
+        <button className="navbar-button click">
+          <h2 className="nav-item">Resume</h2>
+        </button>
+      </Slide>
     </div>
   );
 };
