@@ -1,0 +1,42 @@
+.aboutme-wrapper {
+  padding: 10px 10%;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.aboutme-content {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 40px;
+  margin: 20px 0px;
+  color: var(--main-dark);
+}
+
+.title-secondary {
+  font-size: 32px;
+  margin: 30px 0px;
+}
+
+.special-text {
+  color: var(--main);
+}
+
+.special-text:hover {
+  color: var(--main-dark);
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 1.2;
+}
+
+.coding-profiles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+}

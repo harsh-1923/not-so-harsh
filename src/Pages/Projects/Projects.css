@@ -1,0 +1,6 @@
+.project-wrapper {
+  padding: 10px 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

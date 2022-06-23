@@ -1,0 +1,53 @@
+.homepage-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10vh 10%;
+  min-height: 70vh;
+}
+
+.homepage-title-primary {
+  font-size: 80px;
+  font-weight: 700;
+  color: #0e2431;
+}
+
+.homepage-title-secondary {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.homepage-title-company {
+  font-size: 100px;
+}
+
+.highlight {
+  color: #47B5FF;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+
+.highlight:hover { 
+  color: #1d2f79;
+}
+
+.btn{
+  padding: 5px 10px;
+  background-color: var(--main);
+  outline: none;
+  border: none;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin: 0px 10px;
+  font-size: 20px;
+}
+
+.social-media-links{
+  display: flex;
+  align-items: center;
+}
