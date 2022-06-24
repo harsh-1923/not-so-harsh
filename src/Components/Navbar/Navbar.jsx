@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Bounce from "react-reveal/Bounce";
-import Slide from "react-reveal/Slide";
+import { Fade, Slide } from "react-awesome-reveal";
 
 import MusicPlayer from "../MusicPlayer/MusicPlayer.jsx";
 

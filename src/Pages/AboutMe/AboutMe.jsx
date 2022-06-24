@@ -3,9 +3,9 @@ import "./aboutme.css";
 import LC_LOGO from "../../assets/LC_LOGO.png";
 import GFG_LOGO from "../../assets/GFG_LOGO.png";
 import CC_LOGO from "../../assets/CC_LOGO.png";
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
-import Zoom from "react-reveal/Zoom";
+
+
+import { Fade, Slide } from "react-awesome-reveal";
 
 import CodingProfile from "../../Components/CodingProfileCard/CodingProfile.jsx";
 
@@ -43,7 +43,7 @@ const AboutMe = () => {
         <h1 className="title">Check out my coding profiles</h1>
       </Slide>
       <div className="coding-profiles">
-        <Zoom>
+        <Fade>
           <CodingProfile
             header={"LeetCode"}
             w={"100px"}
@@ -68,7 +68,7 @@ const AboutMe = () => {
             img={CC_LOGO}
             title={"max 1989 | 4 star"}
           />
-        </Zoom>
+        </Fade>
       </div>
     </div>
   );

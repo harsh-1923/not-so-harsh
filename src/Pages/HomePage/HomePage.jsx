@@ -1,7 +1,6 @@
 import React from "react";
 import "./Homepage.css";
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
+import { Fade, Slide } from "react-awesome-reveal";
 
 import LinkedInCard from "../../Components/SocialConnectCards/LinkedInCard";
 import GmailCard from "../../Components/SocialConnectCards/GmailCard.jsx";
@@ -9,7 +8,7 @@ import GmailCard from "../../Components/SocialConnectCards/GmailCard.jsx";
 const HomePage = () => {
   return (
     <div className="homepage-wrapper">
-      <Fade top>
+      <Fade triggerOnce={true} top>
         <h1 className="homepage-title-primary">
           Hi, I am <strong className="highlight">Harsh Sharma.</strong>
         </h1>
@@ -21,7 +20,7 @@ const HomePage = () => {
 
       <br />
 
-      <Slide bottom>
+      <Slide>
         <h1>Feel free to connect with me</h1>
         <div bottom className="social-media-links">
           <LinkedInCard />
