@@ -15,19 +15,19 @@ const Navbar = () => {
 
   return (
     <div className="navbar-wrapper">
-      <Slide top>
+      <Fade duration={2000}>
         <Link className="navbar-link" to="./">
           <h2 className="navbar-logo">
             {logo ? "not so harsh" : <MusicPlayer />}
           </h2>
         </Link>
-      </Slide>
+      </Fade>
 
-      <Slide top>
+      <Fade duration={2000}>
         <button className="navbar-button click">
           <h2 className="nav-item">Resume</h2>
         </button>
-      </Slide>
+      </Fade>
     </div>
   );
 };

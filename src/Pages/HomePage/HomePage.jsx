@@ -8,7 +8,7 @@ import GmailCard from "../../Components/SocialConnectCards/GmailCard.jsx";
 const HomePage = () => {
   return (
     <div className="homepage-wrapper">
-      <Fade triggerOnce={true} top>
+      <Fade duration={2000} top>
         <h1 className="homepage-title-primary">
           Hi, I am <strong className="highlight">Harsh Sharma.</strong>
         </h1>
@@ -20,8 +20,8 @@ const HomePage = () => {
 
       <br />
 
-      <Slide>
-        <h1>Feel free to connect with me</h1>
+      <Slide duration={2000}>
+        <h1 className="highlight-dark">Feel free to connect with me</h1>
         <div bottom className="social-media-links">
           <LinkedInCard />
           <GmailCard />

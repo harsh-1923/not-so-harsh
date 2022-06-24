@@ -4,15 +4,14 @@ import LC_LOGO from "../../assets/LC_LOGO.png";
 import GFG_LOGO from "../../assets/GFG_LOGO.png";
 import CC_LOGO from "../../assets/CC_LOGO.png";
 
-
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade, Slide, Zoom } from "react-awesome-reveal";
 
 import CodingProfile from "../../Components/CodingProfileCard/CodingProfile.jsx";
 
 const AboutMe = () => {
   return (
     <div className="aboutme-wrapper">
-      <Slide bottom>
+      <Fade>
         <h1 className="title">About me</h1>
         <p className="aboutme-content">
           I am a final year undergrad (2023 batch) in{" "}
@@ -31,19 +30,18 @@ const AboutMe = () => {
           </span>{" "}
           on various platforms.
         </p>
-        
-      </Slide>
+      </Fade>
 
       <br />
       <br />
       <br />
       <br />
 
-      <Slide bottom>
+      <Fade direction={"bottom"} cascade={true}>
         <h1 className="title">Check out my coding profiles</h1>
-      </Slide>
+      </Fade>
       <div className="coding-profiles">
-        <Fade>
+        <Zoom>
           <CodingProfile
             header={"LeetCode"}
             w={"100px"}
@@ -68,7 +66,7 @@ const AboutMe = () => {
             img={CC_LOGO}
             title={"max 1989 | 4 star"}
           />
-        </Fade>
+        </Zoom>
       </div>
     </div>
   );

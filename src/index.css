@@ -35,6 +35,10 @@ html {
   font-weight: 600;
 }
 
+.highlight-dark {
+  color: var(--main-dark);
+}
+
 .cpc-wrapper {
   /* background-color: pink; */
   max-width: 250px;
