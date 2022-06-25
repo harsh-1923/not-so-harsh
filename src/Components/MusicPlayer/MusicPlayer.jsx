@@ -16,7 +16,7 @@ const MusicPlayer = () => {
         </Fade>
       ) : (
         <Slide duration={500}>
-          <audio controls autoplay={true}>
+          <audio controls autoPlay={true}>
             <source
               src="https://raag.fm/files/mp3/128/Hindi/11060802/Log%20Kya%20Kahenge%20-%20(Raag.Fm).mp3"
               type="audio/mpeg"

@@ -14,9 +14,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <HomePage />
-      <AboutMe />
-      <WorkPage /> */}
       <Routes>
         <Route path="/" element={<LandingPage/>} />
         <Route path="/xrsim-work" element={<XRSimWork />} />

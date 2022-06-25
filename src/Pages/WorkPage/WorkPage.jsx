@@ -1,28 +1,37 @@
 import React from "react";
 import "./WorkPage.css";
 import XRSIM_MOCKUP from "../../assets/XRSIM_MOCKUP.png";
+import AIRBUS from "../../assets/AIRBUS.png";
 import { Fade, Slide, Zoom } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 
 const WorkPage = () => {
   return (
     <div className="workpage-wrapper">
-      <br />
       <Fade duration={2000}>
         <h1 className="title-work-header">Experience</h1>
+
+        <br />
         <h1 className="title-work">
           <a className="link" href="http://xrsim.co" target="_blank">
             XRSim
           </a>
         </h1>
+        <strong className="title-role">Full Stack Developer</strong>
+        <strong className="title-role">Dec 2021 - May 2022</strong>
+        <br />
         <h1 className="tag-xrsim">New look, new website</h1>
-        <strong>Dec 2021 - May 2022</strong>
       </Fade>
       <img className="xrsim-m-img" src={XRSIM_MOCKUP} />
 
       <div className="xrsim-workdetails">
         <div className="xrsim-details-left">
           <p>
+            <strong>Role </strong> Full Stack Developer
+            <br />
+            <strong>Duration </strong> 6 months
+            <br />
+            <br />
             <strong>Tech Stack</strong>
             <div className="xrsim-techstack">
               <div className="tech">
@@ -51,8 +60,8 @@ const WorkPage = () => {
         </div>
         <div className="xrsim-details-right">
           <strong>Highlights</strong>
-          <br/>
-          <br/>
+          <br />
+          <br />
           Complete UI/UX redesign from scratch
           <br />
           <br />

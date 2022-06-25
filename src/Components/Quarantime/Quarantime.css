@@ -1,0 +1,45 @@
+.quarantime-title {
+  color: var(--dark);
+  font-size: 60px;
+}
+
+.quarantime-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-title {
+  color: var(--dark);
+  font-size: 20px;
+  text-align: center;
+  max-width: 40%;
+  font-size: 30px;
+}
+
+.quarantime-sec {
+  padding: 80px;
+  width: 60%;
+  text-align: center;
+}
+
+.q-m-img-two {
+  width: 800px;
+}
+
+.gitlink-btn {
+  background-color: var(--dark);
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.gitlink-btn:hover{
+  transform: scale(1.04, 1.04);
+  filter: drop-shadow(0px 0px 20px #80c5e5);
+}

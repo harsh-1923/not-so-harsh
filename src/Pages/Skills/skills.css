@@ -1,0 +1,16 @@
+.skills-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 10%;
+
+
+}
+
+.skills-disp-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
