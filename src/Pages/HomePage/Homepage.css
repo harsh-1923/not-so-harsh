@@ -26,17 +26,16 @@
 }
 
 .highlight {
-  color: #47B5FF;
+  color: #47b5ff;
   transition: all 0.2s;
   cursor: pointer;
 }
 
-
-.highlight:hover { 
+.highlight:hover {
   color: #1d2f79;
 }
 
-.btn{
+.btn {
   padding: 5px 10px;
   background-color: var(--main);
   outline: none;
@@ -47,7 +46,40 @@
   font-size: 20px;
 }
 
-.social-media-links{
+.social-media-links {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 780px) {
+  .homepage-wrapper {
+    min-height: 0px;
+    padding: 30px 10%;
+  }
+
+  .homepage-title-primary {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 430px) {
+  .homepage-wrapper {
+    padding: 20px 8%;
+  }
+
+  .homepage-title-primary {
+    font-size: 34px;
+  }
+
+  .highlight-dark {
+    font-size: 24px;
+  }
+
+  .social-media-links {
+    font-size: 14px;
+  }
+
+  .coding-profiles {
+    flex-direction: column;
+  }
 }

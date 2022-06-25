@@ -24,7 +24,6 @@ const Quarantime = () => {
           A React Native App with minimalistic UI design that tracks World Wide
           Data of the Covid-19 data.
         </strong>
-
         <br />
       </div>
       <div className="xrsim-workdetails">

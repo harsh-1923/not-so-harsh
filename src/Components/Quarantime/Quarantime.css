@@ -39,7 +39,32 @@
   transition: all 0.5s;
 }
 
-.gitlink-btn:hover{
+.gitlink-btn:hover {
   transform: scale(1.04, 1.04);
   filter: drop-shadow(0px 0px 20px #80c5e5);
+}
+
+@media (max-width: 430px) {
+  .quarantime-wrapper {
+    padding: 10px 10%;
+  }
+
+  .quarantime-title {
+    font-size: 30px;
+  }
+
+  .project-title {
+    font-size: 22px;
+    font-weight: 600;
+    max-width: 80%;
+  }
+
+  .quarantime-sec {
+    width: 90%;
+    text-align: center;
+  }
+
+  .q-m-img {
+    width: 400px;
+  }
 }

@@ -4,6 +4,7 @@ import XRSIM_MOCKUP from "../../assets/XRSIM_MOCKUP.png";
 import AIRBUS from "../../assets/AIRBUS.png";
 import { Fade, Slide, Zoom } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
+import PHONE_XRSIM from "../../assets/PHONE_XRSIM.png";
 
 const WorkPage = () => {
   return (
@@ -23,6 +24,7 @@ const WorkPage = () => {
         <h1 className="tag-xrsim">New look, new website</h1>
       </Fade>
       <img className="xrsim-m-img" src={XRSIM_MOCKUP} />
+      {/* <img className="xrsim-m-img" src={PHONE_XRSIM} /> */}
 
       <div className="xrsim-workdetails">
         <div className="xrsim-details-left">

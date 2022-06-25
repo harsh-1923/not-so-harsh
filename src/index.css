@@ -79,3 +79,18 @@ html {
   text-decoration: none;
   color: inherit;
 }
+
+@media (max-width: 430px) {
+  .cpc-img {
+    width: 40px;
+  }
+
+  .cpc-title {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .cpc-tag {
+    font-size: 18px;
+  }
+}
