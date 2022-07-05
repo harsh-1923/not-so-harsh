@@ -1,6 +1,6 @@
 .skill-wrapper {
   padding: 10px 20px;
-  background: rgba(255, 255, 255, 0.25);
+  /* background: rgba(255, 255, 255, 0.25); */
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -19,4 +19,11 @@
 
 .skill-title {
   font-weight: 400;
+}
+
+
+@media (max-width: 420px) {
+  .skill-title{
+    font-size: 20px;
+  }
 }
