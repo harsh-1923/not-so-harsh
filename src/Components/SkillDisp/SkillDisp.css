@@ -1,7 +1,7 @@
 .skill-wrapper {
   padding: 10px 20px;
   background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
@@ -9,6 +9,12 @@
   border-radius: 10px;
   margin-bottom: 30px;
   margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-wrapper:hover {
+  transform: scale(1.02, 1.02);
+  margin-right: 15px;
 }
 
 .skill-title {

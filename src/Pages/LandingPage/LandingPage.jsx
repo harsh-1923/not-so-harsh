@@ -13,6 +13,7 @@ const LandingPage = () => {
       <AboutMe />
       <WorkPage />
       <Projects />
+      <Skills/>
     </div>
   );
 };

@@ -25,7 +25,15 @@ const Navbar = () => {
 
       <Fade duration={2000}>
         <button className="navbar-button click">
-          <h2 className="nav-item">Resume</h2>
+          <h2 className="nav-item">
+            <a
+              className="link"
+              href="https://drive.google.com/file/d/13ItXjYd-DIekBD8Az_-nTYL3dVPiXssh/view?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </h2>
         </button>
       </Fade>
     </div>
