@@ -60,8 +60,9 @@
   }
 
   .quarantime-sec {
-    width: 90%;
+    width: 80%;
     text-align: center;
+    padding: 40px;
   }
 
   .q-m-img {
