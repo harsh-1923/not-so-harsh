@@ -26,7 +26,7 @@ const Quarantime = () => {
         </strong>
         <br />
       </div>
-      <div className="xrsim-workdetails">
+      {/* <div className="xrsim-workdetails">
         <div className="xrsim-details-left">
           <button className="gitlink-btn">
             <a
@@ -70,6 +70,58 @@ const Quarantime = () => {
           <br />
           <br />
           Integrated bottom sheet to display selected country's vaccination info
+        </div>
+      </div> */}
+      <div className="flint-project-details">
+        <div className="flint-project-details-left">
+          <button className="gitlink-btn bhy">
+            <a
+              className="link"
+              href="https://github.com/harsh-1923/Quarantime"
+              target="_blank"
+            >
+              View code on GitHub
+            </a>
+          </button>
+          <p>
+            <strong>Tools, Frameworks and Libraries</strong>
+            <div className="xrsim-techstack">
+              <div className="tech">
+                <p>ReactJS</p>
+              </div>
+              <div className="tech">
+                <p>Node.js</p>
+              </div>
+              <div className="tech">
+                <p>Express</p>
+              </div>
+              <div className="tech">
+                <p>MongoDB</p>
+              </div>
+              <div className="tech">
+                <p>React Awesone Reveal</p>
+              </div>
+              <div className="tech">
+                <p>CSS</p>
+              </div>
+            </div>
+          </p>
+        </div>
+        <div className="flint-project-details-right">
+          <div className="flint-details-right">
+            <strong>Highlights</strong>
+            <br />
+            <br />
+            Create shared workspaces with other users and add notes, to-dos and
+            bookmarks
+            <br />
+            <br />
+            Integrated Payments Gateway for Flint Premium features like Flint
+            Messages
+            <br />
+            <br />
+            Responsive UI design for all screen sizes
+          </div>
         </div>
       </div>
     </>

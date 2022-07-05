@@ -14,7 +14,111 @@ import LAPTOP_FLINT from "../../assets/LAPTOP_FLINT.png";
 const Flint = () => {
   return (
     <div className="flint-wrapper">
-      <Fade duration={3000} cascade={true}>
+      {/* // !FLINT TITLE */}
+      <div className="flint-title-wrapper">
+        <h1 className="flint-work-header">Flint</h1>
+      </div>
+      {/* // !FLINT img */}
+      <div className="flint-img-wrapper">
+        <p className="flint-project-title-tag">
+          <strong>The product for all your productivity needs.</strong>
+        </p>
+        <img className="f-m-img" src={F_II} />
+      </div>
+      {/* //!FLINT HIGHLLIGHTS */}
+      <div className="flint-highlights-wrapper">
+        <div className="fh-l1">
+          <div className="fh-l1-left">
+            <h1>
+              Create collaborative workspaces. <br />
+              with anyone. <br />
+              from anywhere. <br />
+              on any device.
+            </h1>
+          </div>
+          <div className="fh-l1-right">
+            <h1 className="fh-l1-right-title">Flint Messages</h1>
+            <small>
+              <strong>
+                Get Flint Premium and boost your productivity by discussing with
+                you collaborators inside work spaces!!
+              </strong>
+            </small>
+            <img className="fh-flint-msg-img" src={FLINT_MESSAGES} />
+          </div>
+        </div>
+      </div>
+
+      <div className="flint-highlight-wrapper-2">
+        <div className="fh-l2">
+          <h1 className="dark">Consistent Design</h1>
+          <img className="fph-b-l2-img-consistent" src={ICONS} />
+          <img className="fph-b-l3-img-tab" src={TAB_FLINT} />
+        </div>
+      </div>
+      <img className="laptop-flint-img" src={LAPTOP_FLINT} />
+
+      {/* //!FLINT DETAILS */}
+      <div className="flint-project-details">
+        <div className="flint-project-details-left">
+          <button className="gitlink-btn bhy">
+            <a
+              className="link"
+              href="https://github.com/harsh-1923/Quarantime"
+              target="_blank"
+            >
+              View code on GitHub
+            </a>
+          </button>
+          <p>
+            <strong>Tools, Frameworks and Libraries</strong>
+            <div className="xrsim-techstack">
+              <div className="tech">
+                <p>ReactJS</p>
+              </div>
+              <div className="tech">
+                <p>Node.js</p>
+              </div>
+              <div className="tech">
+                <p>Express</p>
+              </div>
+              <div className="tech">
+                <p>MongoDB</p>
+              </div>
+              <div className="tech">
+                <p>React Awesone Reveal</p>
+              </div>
+              <div className="tech">
+                <p>CSS</p>
+              </div>
+            </div>
+          </p>
+        </div>
+        <div className="flint-project-details-right">
+          <div className="flint-details-right">
+            <strong>Highlights</strong>
+            <br />
+            <br />
+            Create shared workspaces with other users and add notes, to-dos and
+            bookmarks
+            <br />
+            <br />
+            Integrated Payments Gateway for Flint Premium features like Flint
+            Messages
+            <br />
+            <br />
+            Responsive UI design for all screen sizes
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Flint;
+
+{
+  /* <Fade duration={3000} cascade={true}>
         <div className="quarantime-wrapper">
           <br />
 
@@ -28,8 +132,10 @@ const Flint = () => {
             <img className="f-m-img" src={F_II} />
           </div>
         </div>
-      </Fade>
-      <Fade>
+      </Fade> */
+}
+{
+  /* <Fade>
         <div className="flint-highlights-wrapper">
           <h1 className="flint-project-title-2">Project Highlights</h1>
           <div className="fph-b-wrapper">
@@ -88,10 +194,12 @@ const Flint = () => {
             </div>
           </div>
         </div>
-      </Fade>
-      <div className="mb">
-        <div style={{ marginTop: "40px" }} className="xrsim-workdetails">
-          <div className="xrsim-details-left">
+      </Fade> */
+}
+{
+  /* <div className="mb">
+        <div style={{ marginTop: "40px" }} className="flint-workdetails">
+          <div className="xrsim-details-left special-left">
             <button className="gitlink-btn">
               <a
                 className="link"
@@ -143,9 +251,5 @@ const Flint = () => {
             Responsive UI design for all screen sizes
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
-
-export default Flint;
+      </div> */
+}
