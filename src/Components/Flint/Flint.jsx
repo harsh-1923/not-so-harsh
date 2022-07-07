@@ -64,7 +64,7 @@ const Flint = () => {
           <button className="gitlink-btn bhy">
             <a
               className="link"
-              href="https://github.com/harsh-1923/Quarantime"
+              href="https://github.com/harsh-1923/flint-app"
               target="_blank"
             >
               View code on GitHub
