@@ -48,7 +48,7 @@ const AboutMe = () => {
             h={"100px"}
             link={"https://leetcode.com/harsh_ju_sharma/"}
             img={LC_LOGO}
-            title={"400+ problems solved"}
+            title={"550+ problems solved"}
           />
           <CodingProfile
             header={"GeekForGeeks"}
