@@ -4,7 +4,7 @@ import LC_LOGO from "../../assets/LC_LOGO.png";
 import GFG_LOGO from "../../assets/GFG_LOGO.png";
 import CC_LOGO from "../../assets/CC_LOGO.png";
 
-import { Fade, Slide, Zoom } from "react-awesome-reveal";
+import { Fade, Zoom } from "react-awesome-reveal";
 
 import CodingProfile from "../../Components/CodingProfileCard/CodingProfile.jsx";
 

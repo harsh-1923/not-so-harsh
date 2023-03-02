@@ -1,12 +1,12 @@
 import React from "react";
 import "./Flint.css";
-import { Fade, Slide, Zoom } from "react-awesome-reveal";
+// import { Fade, Slide, Zoom } from "react-awesome-reveal"; 
 
-import FLINT_INTRO from "../../assets/FLINT_INTRO.png";
+// import FLINT_INTRO from "../../assets/FLINT_INTRO.png";
 import F_II from "../../assets/F_II.png";
-import BG_F from "../../assets/BG_F.png";
+// import BG_F from "../../assets/BG_F.png";
 import FLINT_MESSAGES from "../../assets/FLINT_MESSAGES.png";
-import SCREENS from "../../assets/SCREENS.png";
+// import SCREENS from "../../assets/SCREENS.png";
 import ICONS from "../../assets/ICONS.png";
 import TAB_FLINT from "../../assets/TAB_FLINT.png";
 import LAPTOP_FLINT from "../../assets/LAPTOP_FLINT.png";

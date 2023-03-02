@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f289896e.css",
+    "main.js": "/static/js/main.6207133e.js",
+    "static/media/BG_F.png": "/static/media/BG_F.42670f127da508da6c17.png",
+    "static/media/TAB_FLINT.png": "/static/media/TAB_FLINT.fbba653d45b56bc28844.png",
+    "static/media/LAPTOP_FLINT.png": "/static/media/LAPTOP_FLINT.38c6ce4311490c9a14a7.png",
+    "static/media/SCREENS.png": "/static/media/SCREENS.c4aea6e3fc54ddbe3dd0.png",
+    "static/media/XRSIM_MOCKUP.png": "/static/media/XRSIM_MOCKUP.04b48385915ad4acd5bd.png",
+    "static/media/F_II.png": "/static/media/F_II.81317b193c56912aa915.png",
+    "static/media/FLINT_INTRO.png": "/static/media/FLINT_INTRO.c10b0fd98fed7a633458.png",
+    "static/media/FLINT_MESSAGES.png": "/static/media/FLINT_MESSAGES.26dda0e9f7c3afc7db1f.png",
+    "static/media/PHONE_XRSIM.png": "/static/media/PHONE_XRSIM.7bf95816f3ffaed03d2a.png",
+    "static/media/Q_TWO.png": "/static/media/Q_TWO.c40e52482b7d2bf8b4a2.png",
+    "static/media/GFG_LOGO.png": "/static/media/GFG_LOGO.f1afd6d2449fb233cafc.png",
+    "static/media/Q_ONE.png": "/static/media/Q_ONE.bf3ad4d3e395edbfcc0b.png",
+    "static/media/Q_THREE.png": "/static/media/Q_THREE.e695e4b782f8ec1ddc8c.png",
+    "static/media/LC_LOGO.png": "/static/media/LC_LOGO.c79f333b12595d3eec8f.png",
+    "static/media/AIRBUS.png": "/static/media/AIRBUS.a41ba9f343c47bb11f8a.png",
+    "static/media/ICONS.png": "/static/media/ICONS.492ef03429c149e2da39.png",
+    "static/media/CC_LOGO.png": "/static/media/CC_LOGO.cb20c19292ab07021a71.png",
+    "index.html": "/index.html",
+    "main.f289896e.css.map": "/static/css/main.f289896e.css.map",
+    "main.6207133e.js.map": "/static/js/main.6207133e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f289896e.css",
+    "static/js/main.6207133e.js"
+  ]
+}
