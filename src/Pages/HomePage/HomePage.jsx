@@ -13,8 +13,8 @@ const HomePage = () => {
           Hi, I am <strong className="highlight">Harsh Sharma.</strong>
         </h1>
         <h1 className="homepage-title-primary">
-          a Software Developer Intern (Mentee) at{" "}
-          <strong className="highlight">Airbus.</strong>
+          a Software Developer Intern at{" "}
+          <strong className="highlight">Slang Labs.</strong>
         </h1>
       </Fade>
 
